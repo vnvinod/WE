@@ -1,0 +1,48 @@
+@media (max-width: 767px) {
+    .navbar-offcanvas.offcanvas-transform.in {
+        margin-top: 62px;
+        background-color: #fff;
+    }
+    .navbar-nav>li>a {
+        line-height: 25px;
+    }    
+    .navbar-offcanvas.in {
+        box-shadow: none;
+    }
+    .navbar-brand>img {
+        height: 50px;
+    }  
+    .navbar {
+        min-height: 60px;
+    }  
+    .user-img {
+        margin-top: 5px;
+    }
+    .pill {
+        margin-top:0;
+    }  
+    .btn-custom {
+	    margin-left: auto;
+    }  
+
+    .form-login {
+        padding: 0 15px 25px;
+        margin: 20px auto;
+    }   
+             
+}
+
+@media (min-width: 768px) and (max-width: 1023px)  {
+    .user-img {
+        margin-right: 25px;
+    }
+    .modal-dialog {
+        width:750px;
+    }  
+}
+
+@media (min-width: 1024px) and (max-width: 2000px)  {
+    .modal-dialog {
+        width:850px;
+    }    
+}
