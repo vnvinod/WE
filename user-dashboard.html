@@ -46,7 +46,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <h2>Admin: Sales Details</h2>
+                <h2>User Dashboard</h2>
             </div>
                   
         </div>        
@@ -56,92 +56,41 @@
                         <table class="table table-hover">
                             <thead>
                                 <tr>
-                                    <th>Order</th>
-                                    <th>Item</th>
-                                    <th>Part/Hardware</th>
+                                    <th  data-hide="phone">Request ID</th>
+                                    <th>Item #</th>
+                                    <th>Request Date</th>
                                     <th>Quantity</th>
-                                    <th>Order Date</th>
                                     <th>Status</th>
                                 </tr>
                             </thead>
                             <tbody> 
                                 <tr> 
-                                    <td>AH52CMC03042017</td>
+                                    <td><a href="#nolink" data-toggle="modal" data-target="#showdetails">AH52CMC03042017</a></td>
                                     <td>AH52CMC</td>
-                                    <td>AH52CMC-1001</td> 
-                                    <td>3</td>
                                     <td>Mar/05/2017</td>
-                                    <td><select class="form-control">
-                                        <option>In-process</option>
-                                        <option>Shipped</option>
-                                        <option>Delivered</option>
-                                        </select>
-                                    </td>
-                                </tr> 
-                                <tr> 
-                                    <td>AH52CMC03042017</td>
-                                    <td>AH52CMC</td>
-                                    <td>AH52CMC-1001</td> 
-                                    <td>3</td>
-                                    <td>Mar/05/2017</td>
-                                    <td><select class="form-control">
-                                        <option>In-process</option>
-                                        <option>Shipped</option>
-                                        <option>Delivered</option>
-                                        </select>
-                                    </td>
-                                </tr> 
-                                <tr> 
-                                    <td>AH52CMC03042017</td>
-                                    <td>AH52CMC</td>
-                                    <td>AH52CMC-1001</td> 
-                                    <td>3</td>
-                                    <td>Mar/05/2017</td>
-                                    <td><select class="form-control">
-                                        <option>In-process</option>
-                                        <option>Shipped</option>
-                                        <option>Delivered</option>
-                                        </select>
-                                    </td>
-                                </tr> 
-                                <tr> 
-                                    <td>AH52CMC03042017</td>
-                                    <td>AH52CMC</td>
-                                    <td>AH52CMC-1001</td> 
-                                    <td>3</td>
-                                    <td>Mar/05/2017</td>
-                                    <td><select class="form-control">
-                                        <option>In-process</option>
-                                        <option>Shipped</option>
-                                        <option>Delivered</option>
-                                        </select>
-                                    </td>
+                                    <td>1</td>                              
+                                    <td>Working</td>
                                 </tr>  
                                 <tr> 
-                                    <td>AH52CMC03042017</td>
-                                    <td>AH52CMC</td>
-                                    <td>AH52CMC-1001</td> 
+                                    <td><a href="javascript:;" data-toggle="modal" data-target="#showdetails">CH52CMC03042017</a></td>
+                                    <td>CH52CCH</td>
+                                    <td>Mar/15/2017</td>
                                     <td>3</td>
-                                    <td>Mar/05/2017</td>
-                                    <td><select class="form-control">
-                                        <option>In-process</option>
-                                        <option>Shipped</option>
-                                        <option>Delivered</option>
-                                        </select>
-                                    </td>
+                                    <td>Shipped</td>
                                 </tr> 
                                 <tr> 
-                                    <td>AH52CMC03042017</td>
-                                    <td>AH52CMC</td>
-                                    <td>AH52CMC-1001</td> 
-                                    <td>3</td>
-                                    <td>Mar/05/2017</td>
-                                    <td><select class="form-control">
-                                        <option>In-process</option>
-                                        <option>Shipped</option>
-                                        <option>Delivered</option>
-                                        </select>
-                                    </td>
+                                    <td><a href="javascript:;" data-toggle="modal" data-target="#showdetails">PR52CMC03042017</a></td>
+                                    <td>PR52CPR</td>
+                                    <td>Mar/20/2017</td>
+                                    <td>2</td>
+                                    <td>Closed</td>
+                                </tr>  
+                                <tr> 
+                                    <td><a href="javascript:;" data-toggle="modal" data-target="#showdetails">ZY52CMC03042017</a></td>
+                                    <td>ZY52CZY</td>
+                                    <td>Mar/25/2017</td>
+                                    <td>1</td>
+                                    <td>Open</td>
                                 </tr>                                                                                                                                                                                                                                                                                               
                             </tbody>
                         </table>
@@ -181,6 +130,55 @@
         </div>
     </footer>
 
-  
+     <div class="modal fade" id="showdetails" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">AH52CMC03042017</h4>
+        </div>
+        <div class="modal-body">
+            <table class="table list">
+                <thead>
+                    <tr>
+                        <th>Items</th>
+                        <th>Request Date</th>
+                        <th>Quantity</th>
+                        <th>Date of Purchase</th>
+                        <th>Purchased from</th>
+                        <th>Reason for the Request</th>
+                    </tr>
+                </thead>
+                <tbody> 
+                    <tr> 
+                        <td><div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 white-bg vertical-center"><img src="images/part1.png" class="img-responsive center-block" alt=""></div>AH52CMC</td> 
+                        <td class="text-center">Mar/05/2017</td>
+                        <td class="text-center">1</td>
+                        <td class="text-center">Feb/05/2017</td>
+                        <td class="text-center">WallMart</td> 
+                        <td>Some description some description some description some description </td>                       
+                    </tr> 
+                                                                                                                                       
+                </tbody>
+            </table>
+        </div>
+        <div class="modal-footer">
+            <div class="row checkout-btn">
+                <div class="col-xs-12 col-sm-5 col-md-12 col-lg-5">
+                    <span class="pull-left"><strong>Status:</strong> Working</span>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-12 col-lg-4">
+
+                </div> 
+                <div class="col-xs-12 col-sm-3 col-md-12 col-lg-3">
+                    <button class="btn btn-custom grey pull-right" data-dismiss="modal"  type="button">Close</button>
+                </div>
+            </div>                        
+            <!--<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>-->
+        </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+    </div><!-- /.modal --> 
 </body>
 </html>

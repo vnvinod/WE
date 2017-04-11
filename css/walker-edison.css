@@ -124,6 +124,9 @@ a.forget-pwd  {
 .input-group .form-control {
 	border-radius:0;
 }
+.table textarea {
+	width:100% !important;
+}
 /* Common - */
 
 /* Container + */
